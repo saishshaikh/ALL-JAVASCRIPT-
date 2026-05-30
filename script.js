@@ -169,11 +169,11 @@
 
 // let arr =[1,2,4,5,6,7,8,9,10];
 // let splice = arr.splice(0,1);
-// console.log (splice);
+// console.log (arr);
 
 // let arr =[1,2,4,5,6,7,8,9,10];
 // let splice = arr.splice(3,5);
-// console.log (splice);
+// console.log (arr);
 
 
 // map() 
