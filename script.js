@@ -1081,3 +1081,325 @@
 
 
 
+
+
+
+
+
+
+
+
+
+//// /////////////////////////////////////////////// REVISE 3 JUNE 2026 FOR  INTRW /////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// let name = prompt("Enter Your Name");
+
+// if (name == "saish") {
+//     alert("Welcome to the world of programming");
+// } else if (name == "sai") {
+//     alert("Not Welcome to the world of programming");
+// } else {
+//     alert("not foundd);
+// }
+
+
+
+// NESTED IF ELSE STATEMENT
+ 
+
+// let mrks = parseInt(prompt("Enter Your Semester Marks"));
+
+// if (mrks >= 32) {
+//     console.log("YOU ARE PASS");
+
+//     if (mrks == 32) {
+//         console.log("YOU ARE PASS WITH GRACE");
+//     }
+
+//     if (mrks >= 50) {
+//         console.log("YOU ARE FIRST DIVISION");
+//     }
+// } else {
+//     console.log("YOU ARE FAIL");
+
+
+
+
+
+
+// let marks = parseInt(prompt("Enter Your Marks"));
+
+// if (marks >= 32) {
+//     console.log("PASS");
+
+//     if (marks >= 60) {
+//         console.log("FIRST DIVISION");
+//     } else {
+//         console.log("SECOND DIVISION");
+//     }
+
+// } else {
+//     console.log("FAIL");
+// }
+
+
+
+// let balls = prompt("Enter decision of the ball (wide, no ball, out, six, four, or normal)");
+
+// if (balls == "six") {
+//     console.log("You hit a six! Great job!");
+
+//     if (balls == "four") {
+//         console.log("You hit a four! Nice shot!");
+//     }
+//         if (balls == "out") {
+//             console.log("You are out! Better luck next time!");
+//         }
+//             if (balls == "wide") {
+//                 console.log("Wide ball! Extra run for the batting team!");
+//             }
+    
+// }  else {
+//     console.log("You hit a normal shot! Keep it up!");
+// }
+
+
+// swich statment 
+
+// let signal = prompt("Enter the traffic signal color");
+
+// switch (signal){
+//     case "red":
+//         console.log("STOP");
+//         break ;
+         
+//         case "green":
+//         console.log("GO NOW");
+//         break ;
+        
+//         case "yellow":
+//         console.log("GET READY");
+//         break ;
+
+// }
+
+
+// let  marks = parseInt(prompt("Enter Your Marks"));
+//  switch (marks) {
+//     case 32:
+//             console.log("YOU ARE PASS WITH GRACE");
+//         break;
+   
+
+//         case 90:
+//         console.log("YOU ARE FIRST DIVISION");
+//         break;
+
+//         default:
+//         console.log("YOU ARE PASS");
+//  }
+
+
+// STRING METHODS 
+
+// let msg = "      hellow!        ";
+// msg.trim();
+//  console.log(msg);/
+
+
+
+// let msg = "saishshaikhfromsaralgaon";
+//  let index = msg.indexOf("from");
+//  console.log(index);
+
+
+// let msg = "saishshaikhfromsaralgaon";
+//  let toUpperCase= msg.toUpperCase();
+//  console.log(toUpperCase);
+
+
+// let msg = "saish shaikh from Kalyan";
+// let mainmsg = msg.slice(0,5);
+// console.log(mainmsg)
+
+// ARRY Mrthods 
+
+
+// let arr = [1, 2, 3, 4, 5];
+// arr.push (6);
+// console.log(arr)
+
+
+// let arr = [1, 2, 3, 4, 5];
+// arr.pop();
+// console.log(arr)
+
+
+// let arr = [1, 2, 3, 4, 5];
+// arr.unshift (5);
+// console.log(arr)/
+
+// let arr = [1, 2, 3, 4, 5];
+// arr.shift ();
+// console.log(arr)
+
+
+ // arry methods 
+
+//  let arr1 = [1, 2, 3, 4, 5];
+//  let arr2 = [6, 7, 8, 9, 10];
+//  let merge = arr1.concat(arr2);
+//  console.log(merge)
+
+
+// let arr = [1, 2, 3, 4, 5];
+// let rev = arr.reverse();
+// console.log(rev)
+
+
+//  let arr = [1, 2, 3, 4, 5];
+//  let slice = arr.slice(0, 3);
+//  console.log(slice)
+
+
+
+// let arr =[1,2,4,5,6,7,8,9,10];
+//  let splice = arr.splice(0,5);
+// console.log (arr);
+
+
+
+// map 
+
+// let  n = [1, 2, 3, 4, 5];
+// let squre = n.map(n=>n*n);
+// console.log(squre)
+
+//  let  n = [1, 2, 3, 4, 5];
+//  let squre = n.map(n=>n*10);
+//   console.log(squre)
+
+
+// let names = ["saish", "sai", "saral", "kalyan"];
+// let UpperClass = names.map(names=>names.toUpperCase())
+// console.log(UpperClass)
+ 
+
+// filter 
+
+// let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let bigno = num.filter(n=>n>5);
+// console.log(bigno)
+
+
+// reduce
+
+// let n = [1, 2, 3, 4, 5];
+// let sum = n.reduce((s,p)=>s+p,0);
+// console.log(sum)
+
+
+
+// forEach
+
+
+// find 
+
+// let arr = [1,2,3,4,5,6,7,8,9,10];
+// let finding = arr.find(n=>n >6);
+// console.log(finding)
+
+
+
+
+//  jo arry methos he o hum string pe bhi use kr skte he but yesseee
+
+
+// let str = "Hello World";
+// let arr = [...str].map(s=>s.toUpperCase());
+// console.log(arr)
+
+
+// loops 
+
+// for loop 
+
+// for (let i = 0; i<=13;i++){
+//     console. log ("saish shaikh 23");
+// }
+
+
+// for (let i = 0; i<=13;i++){
+//     console. log (i);}
+
+
+
+// for (let i = 1; i <= 50; i++) {
+//    if (i % 2 === 0) {
+//     console.log(i + " THE NO IS EVEN");
+//  } else {
+//      console.log(i + " THIS IS ODD NUMBER");
+//   }
+// }/
+
+
+//   let n = parseInt(prompt("Enter Yout NO"));
+//   let sum=0;
+//   for (let i = 1; i <= n; i++) {
+//      sum += i;
+//   }
+//   console.log(sum)
+
+
+
+// let n = parseInt(prompt("ENTER YOUR TABLE NO"));
+// let fact = 1;
+//  for (let i = 1 ; i<=n; i++) {
+//   fact *= i
+//  }  
+//  console.log (fact)
+
+
+// nested for loop
+
+
+// for (let i=1 ; i<=3 ; i++){
+//    for (j=1;j<=2;j++){
+//       console.log(i,j);
+//     }
+// }
+
+
+// for off loop
+
+// let mrks = [1,2,3,4,5,6,7]; // array
+//  for (let no of mrks) {
+
+//     console.log(no)
+
+//  }
+
+
+// let password;
+// do {
+//   password = prompt("Enter password:");
+//   console .log ("you are log in successfuly")
+// } while(password !== "admin");
+
+
+
+//  object literal
+
+// const student = {
+//   name: "Rahul",
+//   age: 20,
+//   marks: 85,
+//   city: "Mumbai"
+// };
+
+
+
+
+
