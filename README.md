@@ -100,10 +100,32 @@ let can be reassigned but cannot be redeclared in the same scope.
 const cannot be reassigned or redeclared after initialization.
 Nowadays, let and const are preferred because they provide block scope and better variable control."
 
+
 q2) Closure in JS ?
 
 Closure ek aisa function hota hai jo apne outer function ke variables ko yaad rakhta hai 
 aur use access kar sakta hai, even after outer function execute ho chuka ho
+
+ex}
+function outer (){
+ let message = "saish shaikh"
+ function inner () {
+  console.log(message)
+ }
+ return inner ;
+}
+
+let closure = outer 
+closure ();
+
+
+Q3) Difference Between Promise and Async/Await
+
+t he main difference is that Promises use .then() and .catch(),
+whereas Async/Await uses async and await keywords.
+Async/Await makes the code cleaner and more readable, internali it is based on promises." 
+
+
 
 
 
