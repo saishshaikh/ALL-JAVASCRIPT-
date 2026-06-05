@@ -1081,6 +1081,22 @@
 
 
 
+/////////////////////////////  remaining topics.//////////////////////////////////  5 june 26
+
+## CLOSURE ##
+
+function outer (){
+ let message = "saish shaikh"
+ function inner () {
+  console.log(message)
+ }
+ return inner ;
+}
+
+let closure = outer ()
+closure ();
+
+
 
 
 
