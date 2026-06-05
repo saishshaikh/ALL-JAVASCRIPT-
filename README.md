@@ -126,6 +126,29 @@ whereas Async/Await uses async and await keywords.
 Async/Await makes the code cleaner and more readable, internali it is based on promises." 
 
 
+ex)  promises 
+
+
+let promise = new Promise((resolve, reject) => {
+    let pass = false;
+
+    if (pass) {
+        resolve("You pass");
+    } else {
+        reject("You fail");
+    }
+});
+
+promise.then(result => {
+    console.log(result);
+});
+
+promise.catch(error => {
+    console.log(error);
+});
+
+
+
 
 
 
