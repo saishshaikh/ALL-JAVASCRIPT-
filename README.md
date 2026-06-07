@@ -121,12 +121,13 @@ closure ();
 
 Q3) Difference Between Promise and Async/Await
 
-t he main difference is that Promises use .then() and .catch(),
+the main difference is that Promises use .then() and .catch(),
 whereas Async/Await uses async and await keywords.
 Async/Await makes the code cleaner and more readable, internali it is based on promises." 
+async → Makes a function asynchronous and allows await.
+await → Waits for the Promise result before moving to the next line.
 
-
-ex)  promises 
+ex)  promises ............
 
 
 let promise = new Promise((resolve, reject) => {
@@ -147,8 +148,33 @@ promise.catch(error => {
     console.log(error);
 });
 
+ex ) assyn await ......................
+
+function GetUser() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            resolve("Saish Shaikh");
+        }, 4000);
+    });
+}
+
+async function NewUser() {
+    let user = await GetUser();
+    console.log(user);
+}
+
+NewUser();
 
 
+
+Q4)  Hoisting in js 
+
+Hoisting means JavaScript moves variable and function declarations to the top before running the code."
+
+ex) hoisting ..................
+
+console.log(a);  (undefined)
+var a = 10;
 
 
 
