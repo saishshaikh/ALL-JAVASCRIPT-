@@ -131,8 +131,8 @@ ex)  promises ............
 
 
 let promise = new Promise((resolve, reject) => {
-    let pass = false;
 
+    let pass = false;
     if (pass) {
         resolve("You pass");
     } else {
@@ -175,6 +175,47 @@ ex) hoisting ..................
 
 console.log(a);  (undefined)
 var a = 10;
+
+
+Q5)  What is this in JavaScript?  
+this refers to the object that called the function.
+
+ex ) This .............
+let student = {
+    name: "saish",
+    age: 23,
+    city: "kalyan",
+    math: 89,
+    eng: 55,
+    hindi: 66,
+    marathi: 44,
+    History: 55,
+
+    AvgMarks() {
+        let avg = (this.math + this.hindi + this.eng) / 3;
+        console.log(avg);
+    }
+};
+
+student.AvgMarks();
+
+
+Q6) What is the difference between map(), filter(), and reduce()?"
+
+
+Q: What is map()?
+
+"map() is used to transform each element of an array and returns a new array."
+
+Q: What is filter()?
+
+"filter() is used to select elements based on a condition and returns a new array."
+
+Q: What is reduce()?
+
+"reduce() is used to combine all elements of an array into a single value."
+
+"map() modifies data, filter() selects data, and reduce() combines data into a single value."
 
 
 
