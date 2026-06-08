@@ -379,3 +379,17 @@ Regular functions have their own this, but arrow functions do not
   }
 
    console.log(sum(8, 8));
+   
+
+  Q16) wht is scope in js ? explain lexical scope 
+  
+    Scope in JavaScript defines the accessibility of variables in different parts of the code.
+    
+    types = 
+    Global Scope → variabl can be used anywhere in code
+    Function Scope → variable declare only inside function
+    Block Scope → variable declare  only inside { } block 
+    
+    Lexical scope means an inner function can use the variables of its outer function
+
+   
