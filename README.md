@@ -207,15 +207,85 @@ Q: What is map()?
 
 "map() is used to transform each element of an array and returns a new array."
 
+  ex ) Map ()...........
+  let arr = [3,4,5,6];
+  let square = arr.map(n=>n*n)
+  console.log(square)
+
+  
 Q: What is filter()?
 
 "filter() is used to select elements based on a condition and returns a new array."
+ex) filter () ............
+let arr = [1,2,3,4,5,6,7,8,9,10];
+let filter = arr.filter(n => n % 2 === 0);
+console.log(filter);
 
 Q: What is reduce()?
-
 "reduce() is used to combine all elements of an array into a single value."
+
+ex ) reduce ()..........
+
+let nums = [1, 2, 3, 4];
+ let sum = nums.reduce((acc, curr) => acc + curr, 0);
+ console.log(sum); // 10
 
 "map() modifies data, filter() selects data, and reduce() combines data into a single value."
 
 
+Q7) wht is the event loop in js ?
+JavaScript is single-threaded, so it can execute only one task at a time.
+The Event Loop is the mechanism that allows JavaScript to handle asynchronous operations without blocking the main thread.
 
+ex) Event Loop .............
+console.log("a");
+
+setTimeout(() => {
+  console.log("b");
+}, 2000);
+
+console.log("c");
+
+//output
+a
+c
+b
+
+Q8) What are the key features introduced in ES6?
+
+S6 introduced features like let and const, Arrow Functions, Template Literals, Destructuring, Spread/Rest Operators, Classes, Modules, and Promises. These features made JavaScript more modern and easier to write
+
+Q9) Wht is difference Between == And === 
+
+== compares values after type conversion,       == → "value check karta hai"
+
+=== compares both value and type without type conversion.  === → "value + type dono check karta hai"
+ex) .........
+console.log(5 == "5");   // true
+console.log(5 === "5");  // false
+
+Q10) Wht is a callback Funct and callback hell ? 
+
+ Callback Function
+A callback function is a function that is passed as an argument to another function and is executed later.
+ex ) Callback Func .............
+
+function login(callback) {
+  console.log("Login Successful");
+  callback();
+}
+
+function getProfile(callback) {
+  console.log("Profile Loaded");
+  callback();
+}
+
+function getOrders() {
+  console.log("Orders Loaded");
+}
+
+login(() => {
+  getProfile(() => {
+    getOrders();
+  });
+});
