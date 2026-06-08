@@ -174,7 +174,7 @@ Hoisting means JavaScript moves variable and function declarations to the top be
 ex) hoisting ..................
 
 console.log(a);  (undefined)
-var a = 10;
+var a = 10;    ( idhr var.... he isliye hoisting  if ..let.. const.. hota to TDZ )
 
 
 Q5)  What is this in JavaScript?  
@@ -289,3 +289,92 @@ login(() => {
     getOrders();
   });
 });
+
+ex ) 
+function Login(callback) {
+    let username = prompt("Enter Your Username");
+    let password = prompt("Enter Your Password");
+
+    console.log(username + " User Login Successfully");
+
+    callback(username);  .........   bcz dashboard me pass krn he username
+}
+
+function Dashboard(username, callback) {
+    console.log("Welcome to the Dashboard " + username);
+
+    callback();
+}
+
+function Logout() {
+    console.log("You have been logged out");
+}
+
+Login((username) => {
+    Dashboard(username, () => {
+        Logout();
+    });
+});
+
+// Callback Hell  = Callback inside callback inside callback
+
+
+Q11)   What is Temporal Dead Zone (TDZ) 
+   "TDZ is the area before a let or const declaration where the variable cannot be accessed." 
+  ex ) TDZ.....
+   console.log(a); // ReferenceError
+    let a = 10;
+
+
+ Q12)  wht is event bubling and event capturing 
+       //Event Bubbling
+     Event Bubbling is a phase where the event moves from the child element to the parent element
+
+        Ex)  
+
+
+        
+      // event capturing 
+      Event Capturing is a phase where the event moves from the parent element to the child element
+
+Q13) wht is Event Delegation
+    Event Delegation is a technique where we attach one event listener to a parent element to handle events of its child elements using event bubbling
+
+Q14) wht is the diff btwn null and undefined 
+.
+null= means variable has empty value (intentionally set).
+undefined = means variable declared but value not given
+
+ex) Null and Undefined  .................
+let a;
+console.log(a); // undefined
+
+let b = null;
+console.log(b); // null
+
+
+Q15 ) wht are arrow function  and how are they different from regular function ? 
+   Arrow functions are a shorter way to write functions in JavaScript.
+   ex1 ) Arow funct
+   
+     let sum = (a, b) => {
+    return a + b;
+    };
+
+   console.log(sum(8, 8));
+
+   ex2) implict Aroow function same code 
+   
+      let sum = (a, b) => (a + b);
+      console.log(sum(8, 8));
+   
+   Difference:...
+   
+Regular functions have their own this, but arrow functions do not 
+— they take this from their parent scope.
+  ex) norml func......
+  function sum(a, b) {
+    return a + b;
+  }
+
+   console.log(sum(8, 8));
