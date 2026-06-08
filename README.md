@@ -107,6 +107,7 @@ Closure ek aisa function hota hai jo apne outer function ke variables ko yaad ra
 aur use access kar sakta hai, even after outer function execute ho chuka ho
 
 ex}
+
 function outer (){
  let message = "saish shaikh"
  function inner () {
