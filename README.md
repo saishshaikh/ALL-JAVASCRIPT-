@@ -600,4 +600,23 @@ Q26} wht r the map and set in js
 
   Map → stores key–value pairs (keys can be any type, ordered)
   Set → stores only unique values (no duplicates allowed)
-     
+
+
+   ///////////////////////////// EXTRA //////////////////////////////
+
+Prototype → "Prototype JavaScript me inheritance provide karta hai, jisse ek object dusre object ki properties aur methods use kar sakta hai."
+Shallow Copy → "Shallow copy me nested objects ka reference copy hota hai, alag object nahi banta."
+Deep Copy → "Deep copy me poora object aur uske nested objects ki alag copy banti hai."
+localStorage → "localStorage browser me data permanently store karta hai jab tak manually delete na kare."
+sessionStorage → "sessionStorage data ko browser tab close hone tak store karta hai."
+Cookies → "Cookies chhota data store karti hain aur server ke saath bhi send ho sakti hain."
+Synchronous → "Synchronous code me ek task complete hone ke baad hi next task execute hota hai."
+Asynchronous → "Asynchronous code me task complete hone ka wait nahi karna padta aur dusre tasks parallel handle ho sakte hain."
+find() → "find() condition match karne wala pehla element return karta hai."
+findIndex() → "findIndex() condition match karne wale pehle element ka index return karta hai."
+filter() → "filter() condition match karne wale saare elements return karta hai."
+async → "async script download hote hi execute ho sakti hai."
+defer → "defer script HTML load hone ke baad execute hoti hai."
+Optional Chaining (?.) → "Optional chaining nested properties ko safely access karne deti hai bina error diye."
+Nullish Coalescing (??) → "Nullish coalescing null ya undefined hone par default value provide karta hai."
+CORS → "CORS browser ka security feature hai jo different domains ke beech requests ko control karta hai."
