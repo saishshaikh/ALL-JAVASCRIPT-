@@ -638,3 +638,202 @@ Optional Chaining (?.) → "Optional chaining nested properties ko safely access
 Nullish Coalescing (??) → "Nullish coalescing null ya undefined hone par default value provide karta hai."
 
 CORS → "CORS browser ka security feature hai jo different domains ke beech requests ko control karta hai."
+
+
+
+3############################################ JS BASIC CODDING QUESTIONS ###########################################################
+
+
+
+
+// Reverse String
+
+
+// let str = "helloworld";
+// let rev= str.split('').reverse("").join('');
+// console.log(rev)
+
+// 2. Palindrome
+
+// let str = "Madam";
+// let rev = str.split().reverse().join();
+//  console.log(rev===str)
+
+//   Output:
+// true
+
+
+// 3. Remove Duplicates
+
+// let arr = [1,2,2,3,4,4,5];
+// let unique = [...new Set(arr)];
+// console.log(unique)
+
+// output = 12345
+
+// 4. Character Frequency
+
+// let str = "hello"
+// let obj = {};
+
+// for (let char of str) {
+//     obj[char] = (obj[char]||0) +1 ;
+// }
+
+// console.log(obj)
+
+// output 
+// h:1,
+//  e:1,
+//  l:2,
+//  o:1
+
+// 5. Largest Number
+
+// let arr = [10,20,50,30];
+// console.log(Math.max(...arr))
+
+// Output: 50
+
+
+   // 5 Second Largest Number
+   
+//    let arr = [10,20,56,55,65,62,70,70,85,100,110,120,50,40];
+// let sorted = [...new Set(arr)].sort((a,b)=>(b-a))
+// console.log(sorted[1]);
+
+
+  // 6 descending order.
+// let arr = [10,20,56,55,65,62,70,70,85,100,110,120,50,40];
+// let sorted = [...new Set(arr)].sort((a,b)=>(b-a))
+// console.log(sorted);
+
+// output =  120, 110, 100, 85,
+//    70,  65,  62, 56,
+//    55,  50,  40, 20,
+//    10
+
+// 7. Flatten Array
+// let arr = [[1,[2]],3];
+
+// console.log(arr.flat(Infinity));
+
+// Output:
+
+// [1,2,3]
+
+
+
+// 8. Most Frequent Element
+// let arr = [1,2,2,3,2,4];
+
+// let freq = {};
+// let max = 0;
+// let result;
+
+// for(let num of arr){
+//   freq[num] = (freq[num] || 0) + 1;
+
+//   if(freq[num] > max){
+//     max = freq[num];
+//     result = num;
+//   }
+// }
+
+// console.log(result);
+
+// Output:
+
+// 2
+
+
+// 9. Sum of Array
+// let arr = [1,2,3,4];
+
+// let sum = arr.reduce((acc,curr)=>acc+curr,0);
+
+// console.log(sum);
+
+// Output:
+
+// 10
+
+
+// 10. Find Missing Number
+// let arr = [1,2,3,5];
+
+// let n = 5;
+
+// let total = (n*(n+1))/2;
+
+// let sum = arr.reduce((a,b)=>a+b,0);
+
+// console.log(total-sum);
+
+// Output:
+
+// 4
+
+
+
+
+// Find Duplicate Elements
+// let arr = [1,2,2,3,4,4];
+
+// let dup = arr.filter((item,index)=>
+//   arr.indexOf(item)!==index
+// );
+
+// console.log([...new Set(dup)]);
+
+// Output
+
+// [2,4]
+
+// Even Numbers
+
+// let arr = [1,2,3,4,5,6];
+
+// console.log(arr.filter(num=>num%2===0));
+
+// Output
+
+// [2,4,6]
+
+
+// Reverse Array
+// let arr = [1,2,3,4];
+
+// console.log(arr.reverse());
+
+// Output
+
+// [4,3,2,1]
+
+
+// Factorial
+// function factorial(n){
+//  let result = 1;
+
+//  for(let i=1;i<=n;i++){
+//    result *= i;
+//  }
+
+//  return result;
+// }
+
+// console.log(factorial(5));
+
+// Output
+
+// 120
+
+
+// Count Words
+// let str = "I love JavaScript";
+
+// console.log(str.split(" ").length);
+
+// Output
+
+// 3
