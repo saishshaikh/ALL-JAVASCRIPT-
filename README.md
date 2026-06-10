@@ -95,8 +95,8 @@ Prototype
 Q1) var, let, aur const me Difference
 
 Var, let, and const are used to declare variables in JavaScript.
-var can be redeclared and reassigned.
-let can be reassigned but cannot be redeclared in the same scope. 
+var can be redeclared and reassigned.var is function-scoped, 
+let can be reassigned but cannot be redeclared in the same scope.  let and const are block-scoped.
 const cannot be reassigned or redeclared after initialization.
 Nowadays, let and const are preferred because they provide block scope and better variable control."
 
@@ -109,14 +109,18 @@ aur use access kar sakta hai, even after outer function execute ho chuka ho
 ex}
 
 function outer (){
+
  let message = "saish shaikh"
+ 
  function inner () {
+ 
   console.log(message)
+  
  }
  return inner ;
 }
 
-let closure = outer 
+let closure = outer ();
 closure ();
 
 
@@ -194,7 +198,7 @@ let student = {
 
     AvgMarks() {
         let avg = (this.math + this.hindi + this.eng) / 3;
-        console.log(avg);
+        console.log(avg);  
     }
 };
 
@@ -413,7 +417,7 @@ Regular functions have their own this, but arrow functions do not
    
     Q18)  wht is  Promise.all, Promise.race, Promise.allSettled
 
-        Promise.all waits for all promises to complete. If any one promise fails, the entire result         is rejected.”
+        Promise.all waits for all promises to complete. If any one promise fails, the entire result is rejected.”
 
         Promise.race gives the first completed result.
 
@@ -422,7 +426,8 @@ Regular functions have their own this, but arrow functions do not
 
      Q19) wht is Truthy and Falsy values
 
-     Falsy values in JavaScript are values that behave like false in conditions, such as 0, empty        string, null, undefined, NaN, and false. Everything else is truthy and behaves like true.”
+     Falsy values in JavaScript are values that behave like false in conditions, such as 0, empty  string, null, undefined, NaN, and false. 
+     Everything else is truthy and behaves like true.”
 
      Q20 }  wht is diff btw splice vs slice
 
@@ -430,12 +435,36 @@ Regular functions have their own this, but arrow functions do not
    👉 Does NOT change original array
     👉 Just takes part of array
  Ex slice} 
+ let arr =[1,2,4,5,6,7,8,9,10];
+  // let slic = arr.slice(0,4);
+  // console.log (slic);
 
+  Output
+[1, 2, 4, 5]
 
    🔥 splice
   👉 Changes original array
    👉 Used to remove or add items
 ex splice }  
+
+  // let arr = [1,2,3,4,5];
+
+arr.splice(1,2,100,200);
+
+console.log(arr);
+Output
+[1,100,200,4,5]
+
+
+
+//remove//
+let arr = [1,2,3,4,5];
+
+arr.splice(1,2);
+
+console.log(arr);
+Output
+[1,4,5]
 
 
   Q21 } innerHTML vs innerText vs textContent
