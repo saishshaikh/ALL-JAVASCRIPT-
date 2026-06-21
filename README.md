@@ -1,248 +1,333 @@
-Phase 1: JavaScript Basics
-Variables (var, let, const)
-Data Types
-Operators
-null vs undefined
-== vs ===
-Conditions (if, else, switch)
-Loops (for, while)
-Functions
+# JavaScript Interview Questions & Coding Practice (2025–2026)
+
+A complete collection of **JavaScript interview questions**, **important JS concepts**, and **basic coding questions** for practice.
+
+This repository includes:
+- JavaScript learning **phase-wise roadmap**
+- Important **JavaScript interview questions**
+- Beginner-friendly **answers**
+- Common **JavaScript coding questions**
+- Useful for **fresher interviews**
+
+---
+
+# Table of Contents
+
+- [JavaScript Roadmap](#javascript-roadmap)
+  - [Phase 1: JavaScript Basics](#phase-1-javascript-basics)
+  - [Phase 2: Scope & Function Concepts](#phase-2-scope--function-concepts)
+  - [Phase 3: Arrays & Objects](#phase-3-arrays--objects)
+  - [Phase 4: DOM](#phase-4-dom)
+  - [Phase 5: Async JavaScript](#phase-5-async-javascript)
+  - [Phase 6: OOP & Advanced JS](#phase-6-oop--advanced-js)
+  - [Most Important Order (If Time Is Less)](#most-important-order-if-time-is-less)
+
+- [Interview Questions](#interview-questions)
+  - [Q1) Difference between var, let, and const](#q1-difference-between-var-let-and-const)
+  - [Q2) Closure in JavaScript](#q2-closure-in-javascript)
+  - [Q3) Difference between Promise and Async/Await](#q3-difference-between-promise-and-asyncawait)
+  - [Q4) Hoisting in JavaScript](#q4-hoisting-in-javascript)
+  - [Q5) What is this in JavaScript?](#q5-what-is-this-in-javascript)
+  - [Q6) Difference between map(), filter(), and reduce()](#q6-difference-between-map-filter-and-reduce)
+  - [Q7) What is the Event Loop in JavaScript?](#q7-what-is-the-event-loop-in-javascript)
+  - [Q8) What are the key features introduced in ES6?](#q8-what-are-the-key-features-introduced-in-es6)
+  - [Q9) Difference between == and ===](#q9-difference-between--and-)
+  - [Q10) What is a callback function and callback hell?](#q10-what-is-a-callback-function-and-callback-hell)
+  - [Q11) What is Temporal Dead Zone (TDZ)?](#q11-what-is-temporal-dead-zone-tdz)
+  - [Q12) Event Bubbling and Event Capturing](#q12-event-bubbling-and-event-capturing)
+  - [Q13) What is Event Delegation?](#q13-what-is-event-delegation)
+  - [Q14) Difference between null and undefined](#q14-difference-between-null-and-undefined)
+  - [Q15) What are Arrow Functions?](#q15-what-are-arrow-functions)
+  - [Q16) What is Scope in JavaScript? Explain Lexical Scope](#q16-what-is-scope-in-javascript-explain-lexical-scope)
+  - [Q17) What is Destructuring in JavaScript?](#q17-what-is-destructuring-in-javascript)
+  - [Q18) Promise.all, Promise.race, Promise.allSettled](#q18-promiseall-promiserace-promiseallsettled)
+  - [Q19) Truthy and Falsy Values](#q19-truthy-and-falsy-values)
+  - [Q20) Difference between splice() and slice()](#q20-difference-between-splice-and-slice)
+  - [Q21) innerHTML vs innerText vs textContent](#q21-innerhtml-vs-innertext-vs-textcontent)
+  - [Q22) Difference between call(), apply(), and bind()](#q22-difference-between-call-apply-and-bind)
+  - [Q23) Spread vs Rest Operator](#q23-spread-vs-rest-operator)
+  - [Q24) Data Types in JavaScript](#q24-data-types-in-javascript)
+  - [Q25) Difference between for...of and for...in](#q25-difference-between-forof-and-forin)
+  - [Q26) querySelector vs getElementById](#q26-queryselector-vs-getelementbyid)
+  - [Q27) What are Map and Set in JavaScript?](#q27-what-are-map-and-set-in-javascript)
+  - [Extra Important Concepts](#extra-important-concepts)
+
+- [JavaScript Basic Coding Questions](#javascript-basic-coding-questions)
+  - [1) Reverse String](#1-reverse-string)
+  - [2) Palindrome](#2-palindrome)
+  - [3) Remove Duplicates](#3-remove-duplicates)
+  - [4) Character Frequency](#4-character-frequency)
+  - [5) Largest Number](#5-largest-number)
+  - [6) Second Largest Number](#6-second-largest-number)
+  - [7) Descending Order](#7-descending-order)
+  - [8) Flatten Array](#8-flatten-array)
+  - [9) Most Frequent Element](#9-most-frequent-element)
+  - [10) Sum of Array](#10-sum-of-array)
+  - [11) Find Missing Number](#11-find-missing-number)
+  - [12) Find Duplicate Elements](#12-find-duplicate-elements)
+  - [13) Even Numbers](#13-even-numbers)
+  - [14) Reverse Array](#14-reverse-array)
+  - [15) Factorial](#15-factorial)
+  - [16) Count Words](#16-count-words)
+
+---
+
+# JavaScript Roadmap
+
+## Phase 1: JavaScript Basics
+- Variables (`var`, `let`, `const`)
+- Data Types
+- Operators
+- `null` vs `undefined`
+- `==` vs `===`
+- Conditions (`if`, `else`, `switch`)
+- Loops (`for`, `while`)
+- Functions
 
 ⬇️
 
-Phase 2: Scope & Function Concepts
-Scope (Global, Function, Block)
-Hoisting
-Temporal Dead Zone (TDZ)
-Arrow Functions
-Callback Functions
-Higher Order Functions
-Closure
+## Phase 2: Scope & Function Concepts
+- Scope (Global, Function, Block)
+- Hoisting
+- Temporal Dead Zone (TDZ)
+- Arrow Functions
+- Callback Functions
+- Higher Order Functions
+- Closure
 
 ⬇️
 
-Phase 3: Arrays & Objects
-Arrays
-forEach()
-map()
-filter()
-reduce()
-Objects
-Destructuring
-Spread Operator
-Rest Operator
+## Phase 3: Arrays & Objects
+- Arrays
+- `forEach()`
+- `map()`
+- `filter()`
+- `reduce()`
+- Objects
+- Destructuring
+- Spread Operator
+- Rest Operator
 
 ⬇️
 
-Phase 4: DOM
-What is DOM?
-DOM Selectors
-DOM Manipulation
-Event Handling
-Event Bubbling
-Event Delegation
+## Phase 4: DOM
+- What is DOM?
+- DOM Selectors
+- DOM Manipulation
+- Event Handling
+- Event Bubbling
+- Event Delegation
 
 ⬇️
 
-Phase 5: Async JavaScript
-Synchronous vs Asynchronous
-Callback
-Callback Hell
-Promise
-Promise Methods
-Async/Await
-Fetch API
-Event Loop
+## Phase 5: Async JavaScript
+- Synchronous vs Asynchronous
+- Callback
+- Callback Hell
+- Promise
+- Promise Methods
+- Async/Await
+- Fetch API
+- Event Loop
 
 ⬇️
 
-Phase 6: OOP & Advanced JS
-this Keyword
-Constructor Function
-Classes
-Inheritance
-Call
-Apply
-Bind
-Prototype
-Prototype Inheritance
+## Phase 6: OOP & Advanced JS
+- `this` Keyword
+- Constructor Function
+- Classes
+- Inheritance
+- `call`
+- `apply`
+- `bind`
+- Prototype
+- Prototype Inheritance
 
+---
 
+## Most Important Order (If Time Is Less)
 
-Sabse Important Order (Agar Time Kam Hai)
+- `var`, `let`, `const`
+- Data Types
+- Scope
+- Hoisting
+- Functions
+- Arrow Function
+- Closure
+- Arrays (`map`, `filter`, `reduce`)
+- Objects
+- DOM
+- Callback
+- Promise
+- Async/Await
+- Event Loop
+- `this`
+- `call`, `apply`, `bind`
+- Prototype
 
-var, let, const
-Data Types
-Scope
-Hoisting
-Functions
-Arrow Function
-Closure
-Arrays (map, filter, reduce)
-Objects
-DOM
-Callback
-Promise
-Async/Await
-Event Loop
-this
-Call, Apply, Bind
-Prototype
+---
 
+# Interview Questions
 
-######################### INTERVIEW QUESTIONS ####################################
+## Q1) Difference between var, let, and const
+> `var`, `let`, and `const` are used to declare variables in JavaScript.  
+> `var` can be redeclared and reassigned. `var` is function-scoped.  
+> `let` can be reassigned but cannot be redeclared in the same scope. `let` and `const` are block-scoped.  
+> `const` cannot be reassigned or redeclared after initialization.  
+> Nowadays, `let` and `const` are preferred because they provide block scope and better variable control.
 
-Q1) var, let, aur const me Difference
+---
 
-Var, let, and const are used to declare variables in JavaScript.
-var can be redeclared and reassigned.var is function-scoped, 
-let can be reassigned but cannot be redeclared in the same scope.  let and const are block-scoped.
-const cannot be reassigned or redeclared after initialization.
-Nowadays, let and const are preferred because they provide block scope and better variable control."
+## Q2) Closure in JavaScript
+> Closure ek aisa function hota hai jo apne outer function ke variables ko yaad rakhta hai aur use access kar sakta hai, even after outer function execute ho chuka ho.
 
+### Example
 
-q2) Closure in JS ?
+```js
+function outer() {
+  let message = "saish shaikh";
 
-Closure ek aisa function hota hai jo apne outer function ke variables ko yaad rakhta hai 
-aur use access kar sakta hai, even after outer function execute ho chuka ho
+  function inner() {
+    console.log(message);
+  }
 
-ex}
-
-function outer (){
-
- let message = "saish shaikh"
- 
- function inner () {
- 
-  console.log(message)
-  
- }
- return inner ;
+  return inner;
 }
 
-let closure = outer ();
-closure ();
+let closure = outer();
+closure();
+```
 
+---
 
-Q3) Difference Between Promise and Async/Await
+## Q3) Difference between Promise and Async/Await
+> The main difference is that Promises use `.then()` and `.catch()`, whereas Async/Await uses `async` and `await` keywords.  
+> Async/Await makes the code cleaner and more readable. Internally it is based on promises.
 
-the main difference is that Promises use .then() and .catch(),
-whereas Async/Await uses async and await keywords.
-Async/Await makes the code cleaner and more readable, internali it is based on promises." 
-async → Makes a function asynchronous and allows await.
-await → Waits for the Promise result before moving to the next line.
+- `async` → Makes a function asynchronous and allows `await`
+- `await` → Waits for the Promise result before moving to the next line
 
-ex)  promises ............
+### Promise Example
 
-
+```js
 let promise = new Promise((resolve, reject) => {
-
-    let pass = false;
-    if (pass) {
-        resolve("You pass");
-    } else {
-        reject("You fail");
-    }
+  let pass = false;
+  if (pass) {
+    resolve("You pass");
+  } else {
+    reject("You fail");
+  }
 });
 
-promise.then(result => {
+promise
+  .then((result) => {
     console.log(result);
-});
-
-promise.catch(error => {
+  })
+  .catch((error) => {
     console.log(error);
-});
+  });
+```
 
-ex ) assyn await ......................
+### Async/Await Example
 
+```js
 function GetUser() {
-    return new Promise(resolve => {
-        setTimeout(() => {
-            resolve("Saish Shaikh");
-        }, 4000);
-    });
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve("Saish Shaikh");
+    }, 4000);
+  });
 }
 
 async function NewUser() {
-    let user = await GetUser();
-    console.log(user);
+  let user = await GetUser();
+  console.log(user);
 }
 
 NewUser();
+```
 
+---
 
+## Q4) Hoisting in JavaScript
+> Hoisting means JavaScript moves variable and function declarations to the top before running the code.
 
-Q4)  Hoisting in js 
+### Example
 
-Hoisting means JavaScript moves variable and function declarations to the top before running the code."
+```js
+console.log(a); // undefined
+var a = 10;
+```
 
-ex) hoisting ..................
+> Agar `let` ya `const` hota to TDZ ki wajah se error aata.
 
-console.log(a);  (undefined)
-var a = 10;    ( idhr var.... he isliye hoisting  if ..let.. const.. hota to TDZ )
+---
 
+## Q5) What is `this` in JavaScript?
+> `this` refers to the object that called the function.
 
-Q5)  What is this in JavaScript?  
-this refers to the object that called the function.
+### Example
 
-ex ) This .............
+```js
 let student = {
-    name: "saish",
-    age: 23,
-    city: "kalyan",
-    math: 89,
-    eng: 55,
-    hindi: 66,
-    marathi: 44,
-    History: 55,
+  name: "saish",
+  age: 23,
+  city: "kalyan",
+  math: 89,
+  eng: 55,
+  hindi: 66,
 
-    AvgMarks() {
-        let avg = (this.math + this.hindi + this.eng) / 3;
-        console.log(avg);  
-    }
+  AvgMarks() {
+    let avg = (this.math + this.hindi + this.eng) / 3;
+    console.log(avg);
+  },
 };
 
 student.AvgMarks();
+```
 
+---
 
-Q6) What is the difference between map(), filter(), and reduce()?"
+## Q6) Difference between `map()`, `filter()`, and `reduce()`
 
+### What is `map()`?
+> `map()` is used to transform each element of an array and returns a new array.
 
-Q: What is map()?
+```js
+let arr = [3, 4, 5, 6];
+let square = arr.map((n) => n * n);
+console.log(square);
+```
 
-"map() is used to transform each element of an array and returns a new array."
+### What is `filter()`?
+> `filter()` is used to select elements based on a condition and returns a new array.
 
-  ex ) Map ()...........
-  let arr = [3,4,5,6];
-  let square = arr.map(n=>n*n)
-  console.log(square)
-
-  
-Q: What is filter()?
-
-"filter() is used to select elements based on a condition and returns a new array."
-ex) filter () ............
+```js
 let arr = [1,2,3,4,5,6,7,8,9,10];
 let filter = arr.filter(n => n % 2 === 0);
 console.log(filter);
+```
 
-Q: What is reduce()?
-"reduce() is used to combine all elements of an array into a single value."
+### What is `reduce()`?
+> `reduce()` is used to combine all elements of an array into a single value.
 
-ex ) reduce ()..........
-
+```js
 let nums = [1, 2, 3, 4];
- let sum = nums.reduce((acc, curr) => acc + curr, 0);
- console.log(sum); // 10
+let sum = nums.reduce((acc, curr) => acc + curr, 0);
+console.log(sum); // 10
+```
 
-"map() modifies data, filter() selects data, and reduce() combines data into a single value."
+> `map()` modifies/transforms data, `filter()` selects data, and `reduce()` combines data into a single value.
 
+---
 
-Q7) wht is the event loop in js ?
-JavaScript is single-threaded, so it can execute only one task at a time.
-The Event Loop is the mechanism that allows JavaScript to handle asynchronous operations without blocking the main thread.
+## Q7) What is the Event Loop in JavaScript?
+> JavaScript is single-threaded, so it can execute only one task at a time.  
+> The Event Loop is the mechanism that allows JavaScript to handle asynchronous operations without blocking the main thread.
 
-ex) Event Loop .............
+### Example
+
+```js
 console.log("a");
 
 setTimeout(() => {
@@ -250,31 +335,46 @@ setTimeout(() => {
 }, 2000);
 
 console.log("c");
+```
 
-//output
+### Output
+```js
 a
 c
 b
+```
 
-Q8) What are the key features introduced in ES6?
+---
 
-S6 introduced features like let and const, Arrow Functions, Template Literals, Destructuring, Spread/Rest Operators, Classes, Modules, and Promises. These features made JavaScript more modern and easier to write
+## Q8) What are the key features introduced in ES6?
+> ES6 introduced features like `let` and `const`, Arrow Functions, Template Literals, Destructuring, Spread/Rest Operators, Classes, Modules, and Promises. These features made JavaScript more modern and easier to write.
 
-Q9) Wht is difference Between == And === 
+---
 
-== compares values after type conversion,       == → "value check karta hai"
+## Q9) Difference between `==` and `===`
+> `==` compares values after type conversion.  
+> `===` compares both value and type without type conversion.
 
-=== compares both value and type without type conversion.  === → "value + type dono check karta hai"
-ex) .........
+- `==` → value check karta hai
+- `===` → value + type dono check karta hai
+
+### Example
+
+```js
 console.log(5 == "5");   // true
 console.log(5 === "5");  // false
+```
 
-Q10) Wht is a callback Funct and callback hell ? 
+---
 
- Callback Function
-A callback function is a function that is passed as an argument to another function and is executed later.
-ex ) Callback Func .............
+## Q10) What is a callback function and callback hell?
 
+### Callback Function
+> A callback function is a function that is passed as an argument to another function and is executed later.
+
+### Example 1
+
+```js
 function login(callback) {
   console.log("Login Successful");
   callback();
@@ -294,575 +394,733 @@ login(() => {
     getOrders();
   });
 });
+```
 
-ex ) 
+### Example 2
+
+```js
 function Login(callback) {
-    let username = prompt("Enter Your Username");
-    let password = prompt("Enter Your Password");
+  let username = prompt("Enter Your Username");
+  let password = prompt("Enter Your Password");
 
-    console.log(username + " User Login Successfully");
+  console.log(username + " User Login Successfully");
 
-    callback(username);  .........   bcz dashboard me pass krn he username
+  callback(username);
 }
 
 function Dashboard(username, callback) {
-    console.log("Welcome to the Dashboard " + username);
-
-    callback();
+  console.log("Welcome to the Dashboard " + username);
+  callback();
 }
 
 function Logout() {
-    console.log("You have been logged out");
+  console.log("You have been logged out");
 }
 
 Login((username) => {
-    Dashboard(username, () => {
-        Logout();
-    });
+  Dashboard(username, () => {
+    Logout();
+  });
 });
+```
 
-// Callback Hell  = Callback inside callback inside callback
+### Callback Hell
+> Callback inside callback inside callback is called **Callback Hell**.
 
+---
 
-Q11)   What is Temporal Dead Zone (TDZ) 
-   "TDZ is the area before a let or const declaration where the variable cannot be accessed." 
-  ex ) TDZ.....
-   console.log(a); // ReferenceError
-    let a = 10;
+## Q11) What is Temporal Dead Zone (TDZ)?
+> TDZ is the area before a `let` or `const` declaration where the variable cannot be accessed.
 
+### Example
 
- Q12)  wht is event bubling and event capturing 
-       //Event Bubbling
-     Event Bubbling is a phase where the event moves from the child element to the parent element
+```js
+console.log(a); // ReferenceError
+let a = 10;
+```
 
-        Ex)  
+---
 
+## Q12) Event Bubbling and Event Capturing
 
-        
-      // event capturing 
-      Event Capturing is a phase where the event moves from the parent element to the child element
+### Event Bubbling
+> Event Bubbling is a phase where the event moves from the child element to the parent element.
 
-Q13) wht is Event Delegation
-    Event Delegation is a technique where we attach one event listener to a parent element to handle events of its child elements using event bubbling
+### Event Capturing
+> Event Capturing is a phase where the event moves from the parent element to the child element.
 
-Q14) wht is the diff btwn null and undefined 
-.
-null= means variable has empty value (intentionally set).
-undefined = means variable declared but value not given
+---
 
-ex) Null and Undefined  .................
+## Q13) What is Event Delegation?
+> Event Delegation is a technique where we attach one event listener to a parent element to handle events of its child elements using event bubbling.
+
+---
+
+## Q14) Difference between `null` and `undefined`
+- `null` → variable has an empty value intentionally set
+- `undefined` → variable is declared but value is not assigned
+
+### Example
+
+```js
 let a;
 console.log(a); // undefined
 
 let b = null;
 console.log(b); // null
+```
 
+---
 
-Q15 ) wht are arrow function  and how are they different from regular function ? 
-   Arrow functions are a shorter way to write functions in JavaScript.
-   ex1 ) Arow funct
-   
-     let sum = (a, b) => {
-    return a + b;
-    };
+## Q15) What are Arrow Functions?
+> Arrow functions are a shorter way to write functions in JavaScript.
 
-   console.log(sum(8, 8));
+### Example 1
 
-   ex2) implict Aroow function same code 
-   
-      let sum = (a, b) => (a + b);
-      console.log(sum(8, 8));
-   
-   Difference:...
-   
-Regular functions have their own this, but arrow functions do not 
-— they take this from their parent scope.
-  ex) norml func......
-  function sum(a, b) {
-    return a + b;
-  }
+```js
+let sum = (a, b) => {
+  return a + b;
+};
 
-   console.log(sum(8, 8));
-   
+console.log(sum(8, 8));
+```
 
-  Q16) wht is scope in js ? explain lexical scope 
-  
-    Scope in JavaScript defines the accessibility of variables in different parts of the code.
-    
-    types = 
-    Global Scope → variabl can be used anywhere in code
-    Function Scope → variable declare only inside function
-    Block Scope → variable declare  only inside { } block 
-    
-    // Lexical scope means an inner function can use the variables of its outer function
+### Example 2 (Implicit Return)
 
+```js
+let sum = (a, b) => a + b;
+console.log(sum(8, 8));
+```
 
+### Difference from Regular Function
+> Regular functions have their own `this`, but arrow functions do not — they take `this` from their parent scope.
 
-   Q17 ) What is destructuring in js ? 
-       Easy way to extract values from arrays or objects
-       Object example =
-       const user = { name: "Aman", age: 25 };
+### Regular Function Example
 
-        const { name, age } = user;
+```js
+function sum(a, b) {
+  return a + b;
+}
 
-         console.log(name); // Aman
+console.log(sum(8, 8));
+```
 
-         Arry ex = 
-         const nums = [10, 20];
+---
 
-          const [a, b] = nums;
+## Q16) What is Scope in JavaScript? Explain Lexical Scope
+> Scope in JavaScript defines the accessibility of variables in different parts of the code.
 
-          console.log(a); // 10
+### Types of Scope
+- **Global Scope** → variable can be used anywhere in code
+- **Function Scope** → variable declared only inside function
+- **Block Scope** → variable declared only inside `{}` block
 
-   
-    Q18)  wht is  Promise.all, Promise.race, Promise.allSettled
+### Lexical Scope
+> Lexical scope means an inner function can use the variables of its outer function.
 
-        Promise.all waits for all promises to complete. If any one promise fails, the entire result is rejected.”
+---
 
-        Promise.race gives the first completed result.
+## Q17) What is Destructuring in JavaScript?
+> Destructuring is an easy way to extract values from arrays or objects.
 
-        promise.allSettled waits for all promises  and shows both success and failure results.”
+### Object Example
 
+```js
+const user = { name: "Aman", age: 25 };
+const { name, age } = user;
 
-     Q19) wht is Truthy and Falsy values
+console.log(name); // Aman
+```
 
-     Falsy values in JavaScript are values that behave like false in conditions, such as 0, empty  string, null, undefined, NaN, and false. 
-     Everything else is truthy and behaves like true.”
+### Array Example
 
-     Q20 }  wht is diff btw splice vs slice
+```js
+const nums = [10, 20];
+const [a, b] = nums;
 
-     ✂️ slice
-   👉 Does NOT change original array
-    👉 Just takes part of array
- Ex slice} 
- let arr =[1,2,4,5,6,7,8,9,10];
-  // let slic = arr.slice(0,4);
-  // console.log (slic);
+console.log(a); // 10
+```
 
-  Output
+---
+
+## Q18) `Promise.all`, `Promise.race`, `Promise.allSettled`
+
+- **Promise.all** → waits for all promises to complete. If any one promise fails, the entire result is rejected.
+- **Promise.race** → gives the first completed result.
+- **Promise.allSettled** → waits for all promises and shows both success and failure results.
+
+---
+
+## Q19) Truthy and Falsy Values
+> Falsy values in JavaScript are values that behave like `false` in conditions, such as `0`, empty string, `null`, `undefined`, `NaN`, and `false`. Everything else is truthy and behaves like `true`.
+
+---
+
+## Q20) Difference between `splice()` and `slice()`
+
+### `slice()`
+- Does **not** change original array
+- Just takes part of array
+
+```js
+let arr = [1,2,4,5,6,7,8,9,10];
+let slic = arr.slice(0,4);
+console.log(slic);
+```
+
+### Output
+
+```js
 [1, 2, 4, 5]
+```
 
-   🔥 splice
-  👉 Changes original array
-   👉 Used to remove or add items
-ex splice }  
+### `splice()`
+- Changes original array
+- Used to remove or add items
 
-  // let arr = [1,2,3,4,5];
-
-arr.splice(1,2,100,200);
-
-console.log(arr);
-Output
-[1,100,200,4,5]
-
-
-
-//remove//
+```js
 let arr = [1,2,3,4,5];
-
-arr.splice(1,2);
-
+arr.splice(1,2,100,200);
 console.log(arr);
-Output
+```
+
+### Output
+
+```js
+[1,100,200,4,5]
+```
+
+### Remove Example
+
+```js
+let arr = [1,2,3,4,5];
+arr.splice(1,2);
+console.log(arr);
+```
+
+### Output
+
+```js
 [1,4,5]
+```
 
+---
 
-  Q21 } innerHTML vs innerText vs textContent
-       🧱 innerHTML
+## Q21) `innerHTML` vs `innerText` vs `textContent`
 
-   👉 Gives text + HTML tags
-    👉 Can also add HTML
+### `innerHTML`
+- Gives text + HTML tags
+- Can also add HTML
 
-        👀 innerText
+### `innerText`
+- Shows only visible text
+- Ignores hidden text (CSS hidden)
 
-   👉 Shows only visible text
-   👉 Ignores hidden text (CSS hidden)
+### `textContent`
+- Gives all text (raw text)
+- Fast and ignores HTML styling
 
-       📦 textContent
+---
 
-   👉 Gives all text (raw text)
-   👉 Fast and ignores HTML styling
+## Q22) Difference between `call()`, `apply()`, and `bind()`
 
-  Q22} wht is th diff btw call(), apply**(), bind()
-      📞 call
+### `call()`
+- Calls function immediately
+- Pass arguments one by one
 
-  👉 Calls function immediately
-  👉 Pass arguments one by one
+```js
+function greet(city) {
+  console.log(this.name + " from " + city);
+}
 
-  🧪 Example
-  function greet(city) {
-    console.log(this.name + " from " + city);
-   }
+greet.call({ name: "Aman" }, "Delhi");
+```
 
-  greet.call({name: "Aman"}, "Delhi");
+### Output
 
-  📤 Output
-  Aman from Delhi
+```js
+Aman from Delhi
+```
 
+### `apply()`
+- Same as `call()`
+- But arguments are passed in an array
 
-  📦 apply
+```js
+greet.apply({ name: "Aman" }, ["Mumbai"]);
+```
 
-👉 Same as call
-👉 But arguments are passed in an array
+### Output
 
-🧪 Example
-greet.apply({name: "Aman"}, ["Mumbai"]);
-📤 Output
+```js
 Aman from Mumbai
+```
 
+### `bind()`
+- Does **not** run immediately
+- Returns a new function
 
-🔗 bind
-
-👉 Does NOT run immediately
-👉 Returns a new function
-
- ex}
-  function greet(city) {
+```js
+function greet(city) {
   console.log(this.name + " lives in " + city);
 }
 
 const person = {
-  name: "Aman"
+  name: "Aman",
 };
 
 const newGreet = greet.bind(person, "Delhi");
-
 newGreet();
+```
 
-📤 Output
+### Output
+
+```js
 Aman lives in Delhi
+```
 
+---
 
-Q23} Spread vs Rest operator in JavaScript
-Spread expands values, while rest collects multiple values into an array.
- 🌟 Spread Operator (...)
- ex}
-    let arr = [1, 2];
+## Q23) Spread vs Rest Operator in JavaScript
+
+### Spread Operator (`...`)
+> Spread expands values.
+
+```js
+let arr = [1, 2];
 let newArr = [...arr, 3];
 
 console.log(newArr);
+```
 
-📌 Output
+### Output
+
+```js
 [1, 2, 3]
+```
 
+### Rest Operator (`...`)
+> Rest collects multiple values into an array.
 
-Rest Operator (...)
-ex}
+```js
 function sum(...nums) {
   console.log(nums);
 }
 
 sum(1, 2, 3, 4);
-📌 Output
+```
+
+### Output
+
+```js
 [1, 2, 3, 4]
+```
 
-Q24} Data Types in JavaScript
+---
 
-🧱 Primitive Types (store single values)
-String
-Number
-Boolean
-Null
-Undefined
-Symbol
-BigInt
-🧩 Non-Primitive Types (reference types)
-Object
-Array
-Function
+## Q24) Data Types in JavaScript
 
+### Primitive Types (store single values)
+- String
+- Number
+- Boolean
+- Null
+- Undefined
+- Symbol
+- BigInt
 
-Q24} wht is diff btw. for…of vs for…in  
+### Non-Primitive Types (reference types)
+- Object
+- Array
+- Function
 
-  for…of iterates over values, while for…in iterates over keys or indexe
-  🔁 for…of → values (arrays, strings)
+---
+
+## Q25) Difference between `for...of` and `for...in`
+
+### `for...of`
+> Iterates over values (arrays, strings)
+
+```js
 let arr = [10, 20, 30];
 
 for (let val of arr) {
   console.log(val);
 }
-📌 Output
+```
+
+### Output
+
+```js
 10
 20
 30
+```
 
+### `for...in`
+> Iterates over keys/indexes (objects)
 
-🔑 for…in → keys/indexes (objects)
+```js
 let obj = { a: 1, b: 2 };
 
 for (let key in obj) {
   console.log(key, obj[key]);
 }
-📌 Output
+```
+
+### Output
+
+```js
 a 1
 b 2
+```
 
+---
 
-Q25} querySelector vs getElementById
-🎯 getElementById
+## Q26) `querySelector` vs `getElementById`
 
-Selects element using only ID (fastest method)
+### `getElementById`
+> Selects element using only ID (fastest method)
 
+```js
 let el = document.getElementById("myId");
 console.log(el);
+```
 
-📌 Output (example)
+### Example Output
+
+```html
 <div id="myId">Hello</div>
+```
 
+### `querySelector`
+> Selects using any CSS selector (id, class, tag, etc.)
 
-🎯 querySelector
-
-Selects using any CSS selector (id, class, tag, etc.)
-
+```js
 let el1 = document.querySelector("#myId");
 let el2 = document.querySelector(".myClass");
 
 console.log(el1);
 console.log(el2);
+```
 
-📌 Output (example)
+### Example Output
+
+```html
 <div id="myId">Hello</div>
 <div class="myClass">Hi</div>
+```
 
+---
 
-Q26} wht r the map and set in js 
+## Q27) What are Map and Set in JavaScript?
+- **Map** → stores key–value pairs (keys can be any type, ordered)
+- **Set** → stores only unique values (no duplicates allowed)
 
-  Map → stores key–value pairs (keys can be any type, ordered)
-  Set → stores only unique values (no duplicates allowed)
+---
 
+# Extra Important Concepts
 
-   ///////////////////////////// EXTRA //////////////////////////////
+- **Prototype** → Prototype JavaScript me inheritance provide karta hai, jisse ek object dusre object ki properties aur methods use kar sakta hai.
+- **Shallow Copy** → Shallow copy me nested objects ka reference copy hota hai, alag object nahi banta.
+- **Deep Copy** → Deep copy me poora object aur uske nested objects ki alag copy banti hai.
+- **localStorage** → localStorage browser me data permanently store karta hai jab tak manually delete na kare.
+- **sessionStorage** → sessionStorage data ko browser tab close hone tak store karta hai.
+- **Cookies** → Cookies chhota data store karti hain aur server ke saath bhi send ho sakti hain.
+- **Synchronous** → Synchronous code me ek task complete hone ke baad hi next task execute hota hai.
+- **Asynchronous** → Asynchronous code me task complete hone ka wait nahi karna padta aur dusre tasks parallel handle ho sakte hain.
+- **find()** → `find()` condition match karne wala pehla element return karta hai.
+- **findIndex()** → `findIndex()` condition match karne wale pehle element ka index return karta hai.
+- **filter()** → `filter()` condition match karne wale saare elements return karta hai.
+- **async** → `async` script download hote hi execute ho sakti hai.
+- **defer** → `defer` script HTML load hone ke baad execute hoti hai.
+- **Optional Chaining (`?.`)** → Optional chaining nested properties ko safely access karne deti hai bina error diye.
+- **Nullish Coalescing (`??`)** → Nullish coalescing `null` ya `undefined` hone par default value provide karta hai.
+- **CORS** → CORS browser ka security feature hai jo different domains ke beech requests ko control karta hai.
 
-Prototype → "Prototype JavaScript me inheritance provide karta hai, jisse ek object dusre object ki properties aur methods use kar sakta hai."
+---
 
+# JavaScript Basic Coding Questions
 
-Shallow Copy → "Shallow copy me nested objects ka reference copy hota hai, alag object nahi banta."
+## 1) Reverse String
 
-Deep Copy → "Deep copy me poora object aur uske nested objects ki alag copy banti hai."
+```js
+let str = "helloworld";
+let rev = str.split("").reverse().join("");
+console.log(rev);
+```
 
-localStorage → "localStorage browser me data permanently store karta hai jab tak manually delete na kare."
+---
 
-sessionStorage → "sessionStorage data ko browser tab close hone tak store karta hai."
+## 2) Palindrome
 
-Cookies → "Cookies chhota data store karti hain aur server ke saath bhi send ho sakti hain."
+```js
+let str = "Madam";
+let rev = str.split("").reverse().join("");
+console.log(rev.toLowerCase() === str.toLowerCase());
+```
 
-Synchronous → "Synchronous code me ek task complete hone ke baad hi next task execute hota hai."
+### Output
 
-Asynchronous → "Asynchronous code me task complete hone ka wait nahi karna padta aur dusre tasks parallel handle ho sakte hain."
+```js
+true
+```
 
-find() → "find() condition match karne wala pehla element return karta hai
+---
 
+## 3) Remove Duplicates
 
-findIndex() → "findIndex() condition match karne wale pehle element ka index return karta hai."
+```js
+let arr = [1,2,2,3,4,4,5];
+let unique = [...new Set(arr)];
+console.log(unique);
+```
 
-filter() → "filter() condition match karne wale saare elements return karta hai."
+### Output
 
-async → "async script download hote hi execute ho sakti hai."
+```js
+[1,2,3,4,5]
+```
 
+---
 
-defer → "defer script HTML load hone ke baad execute hoti hai."
+## 4) Character Frequency
 
-Optional Chaining (?.) → "Optional chaining nested properties ko safely access karne deti hai bina error diye."
+```js
+let str = "hello";
+let obj = {};
 
-Nullish Coalescing (??) → "Nullish coalescing null ya undefined hone par default value provide karta hai."
+for (let char of str) {
+  obj[char] = (obj[char] || 0) + 1;
+}
 
-CORS → "CORS browser ka security feature hai jo different domains ke beech requests ko control karta hai."
+console.log(obj);
+```
 
+### Output
 
+```js
+{
+  h: 1,
+  e: 1,
+  l: 2,
+  o: 1
+}
+```
 
-3############################################ JS BASIC CODDING QUESTIONS ###########################################################
+---
 
+## 5) Largest Number
 
+```js
+let arr = [10,20,50,30];
+console.log(Math.max(...arr));
+```
 
+### Output
 
-// Reverse String
+```js
+50
+```
 
+---
 
-// let str = "helloworld";
-// let rev= str.split('').reverse("").join('');
-// console.log(rev)
+## 6) Second Largest Number
 
-// 2. Palindrome
+```js
+let arr = [10,20,56,55,65,62,70,70,85,100,110,120,50,40];
+let sorted = [...new Set(arr)].sort((a, b) => b - a);
+console.log(sorted[1]);
+```
 
-// let str = "Madam";
-// let rev = str.split().reverse().join();
-//  console.log(rev===str)
+---
 
-//   Output:
-// true
+## 7) Descending Order
 
+```js
+let arr = [10,20,56,55,65,62,70,70,85,100,110,120,50,40];
+let sorted = [...new Set(arr)].sort((a, b) => b - a);
+console.log(sorted);
+```
 
-// 3. Remove Duplicates
+### Output
 
-// let arr = [1,2,2,3,4,4,5];
-// let unique = [...new Set(arr)];
-// console.log(unique)
+```js
+[120, 110, 100, 85, 70, 65, 62, 56, 55, 50, 40, 20, 10]
+```
 
-// output = 12345
+---
 
-// 4. Character Frequency
+## 8) Flatten Array
 
-// let str = "hello"
-// let obj = {};
+```js
+let arr = [[1,[2]],3];
+console.log(arr.flat(Infinity));
+```
 
-// for (let char of str) {
-//     obj[char] = (obj[char]||0) +1 ;
-// }
+### Output
 
-// console.log(obj)
+```js
+[1,2,3]
+```
 
-// output 
-// h:1,
-//  e:1,
-//  l:2,
-//  o:1
+---
 
-// 5. Largest Number
+## 9) Most Frequent Element
 
-// let arr = [10,20,50,30];
-// console.log(Math.max(...arr))
+```js
+let arr = [1,2,2,3,2,4];
 
-// Output: 50
+let freq = {};
+let max = 0;
+let result;
 
+for (let num of arr) {
+  freq[num] = (freq[num] || 0) + 1;
 
-   // 5 Second Largest Number
-   
-//    let arr = [10,20,56,55,65,62,70,70,85,100,110,120,50,40];
-// let sorted = [...new Set(arr)].sort((a,b)=>(b-a))
-// console.log(sorted[1]);
+  if (freq[num] > max) {
+    max = freq[num];
+    result = num;
+  }
+}
 
+console.log(result);
+```
 
-  // 6 descending order.
-// let arr = [10,20,56,55,65,62,70,70,85,100,110,120,50,40];
-// let sorted = [...new Set(arr)].sort((a,b)=>(b-a))
-// console.log(sorted);
+### Output
 
-// output =  120, 110, 100, 85,
-//    70,  65,  62, 56,
-//    55,  50,  40, 20,
-//    10
+```js
+2
+```
 
-// 7. Flatten Array
-// let arr = [[1,[2]],3];
+---
 
-// console.log(arr.flat(Infinity));
+## 10) Sum of Array
 
-// Output:
+```js
+let arr = [1,2,3,4];
+let sum = arr.reduce((acc, curr) => acc + curr, 0);
+console.log(sum);
+```
 
-// [1,2,3]
+### Output
 
+```js
+10
+```
 
+---
 
-// 8. Most Frequent Element
-// let arr = [1,2,2,3,2,4];
+## 11) Find Missing Number
 
-// let freq = {};
-// let max = 0;
-// let result;
+```js
+let arr = [1,2,3,5];
+let n = 5;
 
-// for(let num of arr){
-//   freq[num] = (freq[num] || 0) + 1;
+let total = (n * (n + 1)) / 2;
+let sum = arr.reduce((a, b) => a + b, 0);
 
-//   if(freq[num] > max){
-//     max = freq[num];
-//     result = num;
-//   }
-// }
+console.log(total - sum);
+```
 
-// console.log(result);
+### Output
 
-// Output:
+```js
+4
+```
 
-// 2
+---
 
+## 12) Find Duplicate Elements
 
-// 9. Sum of Array
-// let arr = [1,2,3,4];
+```js
+let arr = [1,2,2,3,4,4];
 
-// let sum = arr.reduce((acc,curr)=>acc+curr,0);
+let dup = arr.filter((item, index) =>
+  arr.indexOf(item) !== index
+);
 
-// console.log(sum);
+console.log([...new Set(dup)]);
+```
 
-// Output:
+### Output
 
-// 10
+```js
+[2,4]
+```
 
+---
 
-// 10. Find Missing Number
-// let arr = [1,2,3,5];
+## 13) Even Numbers
 
-// let n = 5;
+```js
+let arr = [1,2,3,4,5,6];
+console.log(arr.filter(num => num % 2 === 0));
+```
 
-// let total = (n*(n+1))/2;
+### Output
 
-// let sum = arr.reduce((a,b)=>a+b,0);
+```js
+[2,4,6]
+```
 
-// console.log(total-sum);
+---
 
-// Output:
+## 14) Reverse Array
 
-// 4
+```js
+let arr = [1,2,3,4];
+console.log(arr.reverse());
+```
 
+### Output
 
+```js
+[4,3,2,1]
+```
 
+---
 
-// Find Duplicate Elements
-// let arr = [1,2,2,3,4,4];
+## 15) Factorial
 
-// let dup = arr.filter((item,index)=>
-//   arr.indexOf(item)!==index
-// );
+```js
+function factorial(n) {
+  let result = 1;
 
-// console.log([...new Set(dup)]);
+  for (let i = 1; i <= n; i++) {
+    result *= i;
+  }
 
-// Output
+  return result;
+}
 
-// [2,4]
+console.log(factorial(5));
+```
 
-// Even Numbers
+### Output
 
-// let arr = [1,2,3,4,5,6];
+```js
+120
+```
 
-// console.log(arr.filter(num=>num%2===0));
+---
 
-// Output
+## 16) Count Words
 
-// [2,4,6]
+```js
+let str = "I love JavaScript";
+console.log(str.split(" ").length);
+```
 
+### Output
 
-// Reverse Array
-// let arr = [1,2,3,4];
+```js
+3
+```
 
-// console.log(arr.reverse());
+---
 
-// Output
-
-// [4,3,2,1]
-
-
-// Factorial
-// function factorial(n){
-//  let result = 1;
-
-//  for(let i=1;i<=n;i++){
-//    result *= i;
-//  }
-
-//  return result;
-// }
-
-// console.log(factorial(5));
-
-// Output
-
-// 120
-
-
-// Count Words
-// let str = "I love JavaScript";
-
-// console.log(str.split(" ").length);
-
-// Output
-
-// 3
+# Notes
+- This repository is for **JavaScript fresher interview preparation**
+- Covers **JavaScript roadmap + interview questions + coding questions**
+- Useful for **practice, revision, and interviews**
