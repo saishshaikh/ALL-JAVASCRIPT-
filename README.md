@@ -169,6 +169,8 @@ This repository includes:
 
 # Interview Questions
 
+“JavaScript is a programming language used to make web pages interactive and dynamic.”
+
 ## Q1) Difference between var, let, and const
 > `var`, `let`, and `const` are used to declare variables in JavaScript.  
 > `var` can be redeclared and reassigned. `var` is function-scoped.  
