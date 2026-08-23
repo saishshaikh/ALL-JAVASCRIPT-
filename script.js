@@ -104,124 +104,212 @@
 // msg = msg.trim();
 // console.log(msg);
 
+// OUTPUT:
+// hellow!
+
 
 // let msg = "saishshaikhfromsaralgaon";
 // let index = msg.indexOf("from");
 // console.log(index);
 
+// OUTPUT:
+// 10
+
 
 // let msg = "saishshaikhfromsaralgaon";
-// let toUpperCase= msg.toUpperCase();
+// let toUpperCase = msg.toUpperCase();
 // console.log(toUpperCase);
 
+// OUTPUT:
+// SAISHSHAIKHFROMSARALGAON
 
 
-//  let msg = "saishshaikh"
-//   Nmsg = msg.slice (0,5);
-//  console.log (Nmsg);/
+
+// let msg = "saishshaikh";
+// Nmsg = msg.slice(0,5);
+// console.log(Nmsg);
+
+// OUTPUT:
+// saish
 
 
-// let msg = "saish shaikh"
-//   Nmsg = msg.replace ("saish","sara");
-//  console.log (Nmsg);
 
-//   day 2
+// let msg = "saish shaikh";
+// Nmsg = msg.replace("saish","sara");
+// console.log(Nmsg);
 
-// ###############  ARRAY METHODS ####################
+// OUTPUT:
+// sara shaikh
+
+
+
+// day 2
+
+// ############### ARRAY METHODS ####################
+
 
 // let arr = [1, 2, 3];
 
 // // add to end
 // arr.push(4);
-// console.log(arr); // [1, 2, 3, 4]
+// console.log(arr);
+
+// OUTPUT:
+// [1, 2, 3, 4]
+
 
 // // remove from end
 // arr.pop();
-// console.log(arr); // [1, 2, 3]
+// console.log(arr);
+
+// OUTPUT:
+// [1, 2, 3]
+
 
 // // add to start
 // arr.unshift(0);
-// console.log(arr); // [0, 1, 2, 3]
+// console.log(arr);
+
+// OUTPUT:
+// [0, 1, 2, 3]
+
 
 // // remove from start
 // arr.shift();
-// console.log(arr); // [1, 2, 3]
+// console.log(arr);
 
-                // merging 2 arry
+// OUTPUT:
+// [1, 2, 3]
+
+
+
+// ############### merging 2 array ################
+
 
 // let arr1 = [1,2,3,4,5];
 // let arr2 = [6,7,8,9,10];
 
-// let merge = arr1.concat(arr2)
+// let merge = arr1.concat(arr2);
 // console.log(merge);
 
-//reverse arry
+// OUTPUT:
+// [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-// let arr = [1,2,3,4,5]
-// let rev = arr.reverse(arr)
+
+
+// ############### reverse array ################
+
+
+// let arr = [1,2,3,4,5];
+// let rev = arr.reverse();
 // console.log(rev);
 
-//    slice in arry
+// OUTPUT:
+// [5, 4, 3, 2, 1]
 
-// let arr =[1,2,4,5,6,7,8,9,10];
+
+
+// ############### slice in array ################
+
+
+// let arr = [1,2,4,5,6,7,8,9,10];
 // let slic = arr.slice(0,4);
-// console.log (slic);
+// console.log(slic);
 
-// splice in arry 
+// OUTPUT:
+// [1, 2, 4, 5]
 
-// let arr =[1,2,4,5,6,7,8,9,10];
+
+
+// ############### splice in array ################
+
+
+// let arr = [1,2,4,5,6,7,8,9,10];
 // let splice = arr.splice(0,1);
-// console.log (arr);
+// console.log(arr);
 
-// let arr =[1,2,4,5,6,7,8,9,10];
+// OUTPUT:
+// [2, 4, 5, 6, 7, 8, 9, 10]
+
+
+
+// let arr = [1,2,4,5,6,7,8,9,10];
 // let splice = arr.splice(3,5);
-// console.log (arr);
+// console.log(arr);
+
+// OUTPUT:
+// [1, 2, 4, 10]
 
 
-// map() 
+
+// ############### map() ################
 
 // Purpose: Array ke har element par function apply karke naya array return
 
+
 // let nums = [1, 2, 3];
 // let squares = nums.map(n => n * n);
-// console.log(squares); // [1, 4, 9]
+// console.log(squares);
+
+// OUTPUT:
+// [1, 4, 9]
 
 
 
-// filter() 
+// ############### filter() ################
 
 // Purpose: Array ke selected elements filter karke naya array return
 
+
 // let nums = [1, 2, 3, 4, 5];
 // let even = nums.filter(n => n % 2 === 0);
-// console.log(even); // [2, 4]
+// console.log(even);
 
-//  reduce() 
+// OUTPUT:
+// [2, 4]
+
+
+
+// ############### reduce() ################
 
 // Purpose: Array ke sab elements ko combine karke single value return
 
+
 // let nums = [1, 2, 3, 4];
 // let sum = nums.reduce((acc, curr) => acc + curr, 0);
-// console.log(sum); // 10
+// console.log(sum);
+
+// OUTPUT:
+// 10
 
 
-//  forEach()
+
+// ############### forEach() ################
 
 // Purpose: Array ke har element pe function run karna, return nahi karta
 
+
 // let nums = [1, 2, 3];
 // nums.forEach(n => console.log(n * 2));
-// // 2, 4, 6
+
+// OUTPUT:
+// 2
+// 4
+// 6
 
 
-//  find()
+
+// ############### find() ################
 
 // Purpose: Array me pehla element jo condition satisfy kare, return
 
+
 // let nums = [1, 2, 3, 4];
 // let firstEven = nums.find(n => n % 2 === 0);
-// console.log(firstEven); // 2
-   
+// console.log(firstEven);
+
+// OUTPUT:
+// 2
 
 
 // ########################   LOOPS  ##################################
