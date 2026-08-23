@@ -78,8 +78,10 @@
 //       console.log("GO NOW")
 // break;
 //       case "yellow":
-//       consrwd
-// ole.log ("SLOW DOWN");
+// console.log ("SLOW DOWN");
+//default:
+  //  console.log("Invalid colour");
+
 // }
 
 
