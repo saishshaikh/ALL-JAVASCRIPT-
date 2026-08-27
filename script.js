@@ -1187,9 +1187,190 @@ let closure = outer ()
 closure ();
 
 
+////////////////////////////   OOPS   ////////////////////////////////
+ Topics Covered
+✅ Objects & Classes
 
+✅ Constructor
 
+✅ this
 
+✅ Prototype & Prototype Chain
+
+✅ Inheritance (extends, super)
+
+✅ Polymorphism
+
+✅ Encapsulation / Private Fields
+
+✅ Getters & Setters
+
+✅ Static Methods
+
+✅ Factory Functions
+
+✅ Composition
+
+✅ Method Chaining
+
+1️⃣ Objects & Classes
+Object Literal Syntax
+javascript
+const user = {
+  name: "Rahul",
+  age: 22,
+
+  greet() {
+    console.log("Hello");
+  }
+};
+
+console.log(user.name);  // Output: Rahul
+user.greet();            // Output: Hello
+Class Syntax
+javascript
+class User {
+  greet() {
+    console.log("Hello User");
+  }
+}
+
+const user1 = new User();
+const user2 = new User();
+
+user1.greet();  // Output: Hello User
+user2.greet();  // Output: Hello User
+Key Points:
+
+User → Class
+
+user1, user2 → Objects/Instances
+
+greet() → Method
+
+new User() → Creates an object
+
+Multiple Methods in a Class
+javascript
+class Student {
+  study() {
+    console.log("Student is studying");
+  }
+
+  play() {
+    console.log("Student is playing");
+  }
+
+  sleep() {
+    console.log("Student is sleeping");
+  }
+}
+
+// Multiple objects
+const student1 = new Student();
+const student2 = new Student();
+const student3 = new Student();
+
+student1.study();
+student1.play();
+student1.sleep();
+
+student2.study();
+student2.play();
+student2.sleep();
+
+student3.study();
+student3.play();
+student3.sleep();
+Visual Representation:
+
+text
+      Student Class
+           ↓
+    ┌──────┼──────┐
+    ↓      ↓      ↓
+  s1     s2     s3
+All three objects have access to the same methods:
+
+study(), play(), sleep()
+
+2️⃣ Constructor
+Basic Constructor Example
+javascript
+class Student {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+}
+
+const student1 = new Student("Saish", 22);
+
+console.log(student1.name);  // Output: Saish
+console.log(student1.age);   // Output: 22
+Constructor Auto-Call
+javascript
+class Student {
+  constructor() {
+    console.log("Constructor called");
+  }
+}
+
+const s1 = new Student();  // Output: Constructor called
+const s2 = new Student();  // Output: Constructor called
+Note: Constructor is automatically called when new keyword is used.
+
+3️⃣ this Keyword
+javascript
+class Student {
+  constructor(name, age, city) {
+    this.name = name;
+    this.age = age;
+    this.city = city;
+  }
+
+  introduce() {
+    console.log("My name is " + this.name);
+    console.log("My age is " + this.age);
+    console.log("I live in " + this.city);
+  }
+
+  study() {
+    console.log(this.name + " is studying");
+  }
+
+  play() {
+    console.log(this.name + " is playing");
+  }
+}
+
+const student1 = new Student("Saish", 22, "Kalyan");
+const student2 = new Student("Rahul", 20, "Mumbai");
+
+student1.introduce();
+student1.study();
+student1.play();
+
+console.log("-----");
+
+student2.introduce();
+student2.study();
+student2.play();
+Output:
+
+text
+My name is Saish
+My age is 22
+I live in Kalyan
+Saish is studying
+Saish is playing
+-----
+My name is Rahul
+My age is 20
+I live in Mumbai
+Rahul is studying
+Rahul is playing
+Key Point: this refers to the current object instance.
 
 
 
